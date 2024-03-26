@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Review Page</title>
+    <link rel="stylesheet" href='/static/style.css' />
+
+    <!--Jquery CDN google-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <div>
+        <h1 style="text-decoration: underline;">Customer Review Portal</h1>
+        <p id="date" style="font-family: fantasy;font-weight:500;text-decoration: wavy;color: rgb(217, 91, 204);"></p>
+    </div>
+
+    <div>
+        <img src="static\assets\product\mobile.png" width="200">
+    </div>
+
+    <div>
+        <br>
+        <hr>
+        <hr style=" margin-left: 30%;
+        margin-right: 30%;">
+        <hr style=" margin-left: 35%;
+    margin-right: 35%;">
+    <hr style=" margin-left: 40%;
+    margin-right: 40%;">
+    <hr style=" margin-left: 45%;
+    margin-right: 45%;">
+        <textarea id="text" rows="5" maxlength="300" placeholder="Enter Customer Review"></textarea>
+        <br>
+        <button id="button">Submit</button>
+    </div>
+
+    <div>
+        <p id="sentiment" style="display: none;color:chocolate;font-style: italic;">Sentiment</p>
+        <img src="" id="emoji" style="display: none; border-width: 2px;border-color: burlywood;" width="80"/>
+    </div>
+    
+
+
+    <!--JS file-->
+    <script src="static\script.js"></script>
+</body>
+</html>
